@@ -1,0 +1,6 @@
+.click-outside-container {
+  @apply w-full md:relative
+}
+.click-outside-container > div {
+  @apply w-full h-full
+}

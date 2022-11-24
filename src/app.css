@@ -1,0 +1,19 @@
+:root {
+  font-family: "Poppins";
+  height: 100vh;
+  background-size: 300% 300%;
+  background-image: linear-gradient(
+        -45deg, 
+        rgb(255 255 255) 0%, 
+        rgb(253 242 248) 25%, 
+        rgb(252 231 243) 51%, 
+        rgb(251 207 232) 100%
+  );  
+  animation: AnimateBG 20s ease infinite;
+}
+
+@keyframes AnimateBG { 
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
